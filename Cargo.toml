@@ -12,17 +12,17 @@ categories = ["web-programming"]
 
 [dependencies]
 axum = "~0.6"
-tonic = "~0.9"
+tonic = "~0.10"
 hyper = "~0.14"
 futures = "~0.3"
 tower = "~0.4"
 
 [build-dependencies]
-tonic-build = "~0.9"
+tonic-build = "~0.10"
 
 [dev-dependencies]
-tokio = { version = "~1.31", features = ["full"] }
-prost = "0.11.0"
+tokio = { version = "~1.32", features = ["full"] }
+prost = "0.12.1"
 http-body = "0.4.4"
 tower-http = { version = "~0.4", features = [
     "compression-gzip",
